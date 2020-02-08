@@ -53,7 +53,7 @@ function buildCharts(sample) {
       {
         values: sample_values.slice(0, 10),
         labels: otu_ids.slice(0, 10),
-        type: 'pie'
+        type: "pie",
         hovertext: otu_labels.slice(0, 10),
         hoverinfo: "hovertext",
       }
